@@ -23,6 +23,8 @@ declare module 'react-native-swiper' {
         // If no specify default fullscreen mode by flex: 1.
         height?: number
         // See default style in source.
+        containerStyle?: ViewStyle,
+        // See default style in source.
         style?: ViewStyle
         // Only load current index slide , loadMinimalSize slides before and after.
         loadMinimal?: boolean
